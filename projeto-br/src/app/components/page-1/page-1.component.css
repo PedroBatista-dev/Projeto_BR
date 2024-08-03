@@ -1,0 +1,12 @@
+.container {
+    height: 100vh; /* Ou qualquer altura desejada */
+    background-image: url('/fundo-1.png'); /* Caminho para sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    display: flex; /* Para centralizar o conteúdo, se desejar */
+    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center; /* Para centralizar verticalmente */
+    color: white; /* Cor do texto, modifique como preferir */
+  }
+  
