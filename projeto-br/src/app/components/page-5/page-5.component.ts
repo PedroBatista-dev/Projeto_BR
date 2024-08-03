@@ -12,6 +12,6 @@ export class Page5Component {
   constructor(private router: Router) {}
 
   iniciarQuiz() {
-    this.router.navigate(['/page-3']); 
+    this.router.navigate(['/page-1']); 
   }
 }

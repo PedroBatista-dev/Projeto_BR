@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="quiz-bt">
+        <img src="/logo-quiz-1.png" alt="Logo"  class="logo-quiz"/>
+        <img src="/botao-girar.png" alt="Botao Girar" (click)="girar()" class="bt-iniciar" />
+    </div>
+    <div class="quiz-container">
+        <img src="/quadro-pergunta.png" alt="Logo" class="background-image" />
+        <img src="/roleta1.png" alt="Roleta" class="quiz-content" />
+        <img src="/roleta3.png" alt="Roleta" class="quiz-content-arco" />
+        <img src="/roleta4.png" alt="Roleta" class="quiz-content-ponteiro" />
+        <img src="/roleta2.png" alt="Roleta" class="quiz-content-centro" [ngStyle]="{'transform': rotation}" />
+    </div>
+</div>

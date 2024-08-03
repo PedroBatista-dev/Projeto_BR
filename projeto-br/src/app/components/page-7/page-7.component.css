@@ -1,0 +1,54 @@
+.container {
+    height: 100vh; /* Ou qualquer altura desejada */
+    background-image: url('/fundo-1.png'); /* Caminho para sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    display: flex; /* Para centralizar o conteúdo, se desejar */
+    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center; /* Para centralizar verticalmente */
+    color: white; /* Cor do texto, modifique como preferir */
+}
+
+.bt-iniciar {
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.quiz-bt {
+    display: flex; /* Para centralizar o conteúdo, se desejar */
+    flex-direction: column;
+    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center; /* Para centralizar verticalmente */
+    margin-right: 50px;
+}
+
+.logo-quiz {
+    width: 25vw;
+    margin-bottom: 400px;
+}
+
+.quiz-container {
+    position: relative; /* Torna o container posicionável */
+    width: 64vw; /* Ajusta conforme sua necessidade */
+    height: 78vh; /* Ajusta a altura do container */
+    overflow: hidden; /* Para esconder qualquer conteúdo que extravase */
+  }
+  
+  .background-image {
+    position: absolute; /* Faz a imagem de fundo ficar atrás do conteúdo */
+    top: 0;
+    left: 0;
+    width: 100%; /* Para ocupar toda a largura do container */
+    object-fit: cover; /* Ajusta a imagem para cobrir o fundo */
+    z-index: 1; /* Coloca a imagem atrás do conteúdo */
+  }
+  
+  .quiz-content {
+    position: relative; /* Torna o conteúdo do quiz também posicionável */
+    z-index: 2; /* Coloca o conteúdo acima da imagem */
+    color: white; /* Ajuste a cor do texto conforme necessário */
+    padding: 20px 140px; /* Adiciona espaço ao redor do conteúdo */
+    margin-top: 310px;
+  }
+  

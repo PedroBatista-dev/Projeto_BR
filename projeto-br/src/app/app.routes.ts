@@ -4,6 +4,8 @@ import { Page2Component } from './components/page-2/page-2.component';
 import { Page3Component } from './components/page-3/page-3.component';
 import { Page4Component } from './components/page-4/page-4.component';
 import { Page5Component } from './components/page-5/page-5.component';
+import { Page6Component } from './components/page-6/page-6.component';
+import { Page7Component } from './components/page-7/page-7.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'page-1', pathMatch: 'full' }, // Redireciona para page-1 quando a rota é vazia
@@ -12,4 +14,6 @@ export const routes: Routes = [
   { path: 'page-3', component: Page3Component },
   { path: 'page-4', component: Page4Component },
   { path: 'page-5', component: Page5Component },
+  { path: 'page-6', component: Page6Component },
+  { path: 'page-7', component: Page7Component },
 ];

@@ -34,13 +34,13 @@ export class Page3Component {
       answer: 0
     },
     {
-      question: 'Qual o aeroporto brasileiro com maior número anual de embarques e desembarques de passageiros?',
-      options: ['Aeroporto Internacional de Brasília', '4', '5', '6'],
-      answer: 1
+      question: 'Quem foi o primeiro homem a realizar um voo no Brasil?',
+      options: ['Santos Dumont', 'Edu Chaves', 'Bartolomeu de Gusmão', 'Dimitri Sensaud de Lavaud'],
+      answer: 3
     },
     {
-      question: 'Segundo dados da ANAC, o Brasil possui a segunda maior frota de aeronaves do mundo, ficando atrás apenas dos Estados Unidos. Indique o número aproximado de aeronaves privadas em operação no Brasil:',
-      options: ['Cerca de 5.000 aeronaves', 'Cerca de 20.000 aeronaves', 'Cerca de 10.000 aeronaves', 'Cerca de 15.000 aeronaves'],
+      question: 'Quantas aeronaves (incluindo as experimentais) tem condição de aeronavegabilidade normal no Brasil?',
+      options: ['Cerca de 5.000 aeronaves', 'Cerca de 7.000 aeronaves', 'Cerca de 15.000 aeronaves', 'Cerca de 20.000 aeronaves'],
       answer: 2
     },
     {
