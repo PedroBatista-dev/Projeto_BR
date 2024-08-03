@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Para evitar barras de rolagem */
+}
+
+/* @font-face {
+    font-family: 'ApexNew';
+    src: url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Light.eot");
+    src: url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Light.eot?") format("embedded-opentype"),
+         url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Light.woff2") format("woff2"),
+         url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Light.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+} */
+
+@font-face {
+    font-family: 'ApexNew';
+    src: url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Medium.eot");
+    src: url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Medium.eot?") format("embedded-opentype"),
+         url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Medium.woff2") format("woff2"),
+         url("https://www.bu.edu/cdn/fonts/ApexNew/ApexNew-Medium.woff") format("woff");
+    font-style: normal;
+    font-weight: 500;
+  }
+
+body {
+    font-family: 'ApexNew', sans-serif; /* Defina a fonte como padrão */
+}

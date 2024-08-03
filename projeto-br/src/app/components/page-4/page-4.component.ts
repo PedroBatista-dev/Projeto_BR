@@ -2,18 +2,16 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-page-1',
+  selector: 'app-page-4',
   standalone: true,
   imports: [],
-  templateUrl: './page-1.component.html',
-  styleUrl: './page-1.component.css'
+  templateUrl: './page-4.component.html',
+  styleUrl: './page-4.component.css'
 })
-export class Page1Component {
-
+export class Page4Component {
   constructor(private router: Router) {}
 
   iniciarQuiz() {
-    this.router.navigate(['/page-2']); 
+    this.router.navigate(['/page-3']); 
   }
-
 }

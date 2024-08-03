@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="quiz-bt">
+        <img src="/logo-quiz-1.png" alt="Logo"  class="logo-quiz"/>
+        <img [src]="imageNumber" alt="Numero"  width="150vw"/>
+        <img src="/botao-confirmar.png" alt="Botao Confirmar" (click)="confirmAnswer()"  class="bt-iniciar" />
+    </div>
+    <div class="quiz-container">
+        <img src="/quadro-pergunta.png" alt="Logo" class="background-image" />
+        <div class="quiz-content" *ngIf="currentQuestionIndex < questions.length">
+            <p class="title-question">{{ questions[currentQuestionIndex].question }}</p>
+            <div *ngFor="let option of questions[currentQuestionIndex].options; let i = index">
+            <div 
+                (click)="selectAnswer(i)"
+                [ngStyle]="{ 'background-color': selectedAnswer === i ? '#268200' : '' }"
+                class="option"
+            >
+            <span class="option-label">{{ getOptionLabel(i) }}) </span> {{ option }}
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
