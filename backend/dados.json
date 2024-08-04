@@ -1,0 +1,37 @@
+[
+  {
+    "nome": "Bones BR Aviation",
+    "limite": 300,
+    "sorteios": 0,
+    "anguloI": 0,
+    "anguloF": 72
+  },
+  {
+    "nome": "Chaveiros Beyond",
+    "limite": 70,
+    "sorteios": 0,
+    "anguloI": 73,
+    "anguloF": 144
+  },
+  {
+    "nome": "Canetas Beyond",
+    "limite": 100,
+    "sorteios": 0,
+    "anguloI": 145,
+    "anguloF": 216
+  },
+  {
+    "nome": "Necessaires BR Aviation",
+    "limite": 100,
+    "sorteios": 0,
+    "anguloI": 217,
+    "anguloF": 288
+  },
+  {
+    "nome": "Copos BR Aviation Club",
+    "limite": 150,
+    "sorteios": 0,
+    "anguloI": 289,
+    "anguloF": 360
+  }
+]
