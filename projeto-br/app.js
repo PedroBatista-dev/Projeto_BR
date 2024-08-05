@@ -1,7 +1,4 @@
-const { app, BrowserWindow, Menu } = require('electron');
-const { addBypassChecker } = require('electron-compile');
-
-addBypassChecker((filePath) => { return filePath.indexOf(app.getAppPath()) === -1 && (/.jpg/.test(filePath) || /.ms/.test(filePath) || /.png/.test(filePath)); });
+const { app, BrowserWindow, Menu  } = require('electron');
 
 let appWindow
 

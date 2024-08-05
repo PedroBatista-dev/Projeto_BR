@@ -1,6 +1,6 @@
 .container {
     height: 100vh; /* Ou qualquer altura desejada */
-    background-image: url('/fundo-1.png'); /* Caminho para sua imagem */
+    background-image: url(../../../assets/fundo-1.png); /* Caminho para sua imagem */
     background-size: cover; /* Faz a imagem cobrir toda a div */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */

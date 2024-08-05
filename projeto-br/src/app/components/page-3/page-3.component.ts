@@ -73,7 +73,7 @@ export class Page3Component {
   currentQuestionIndex: number = 0;
   selectedAnswer: number | null = null;
   score: number = 0;
-  imageNumber: string = `/q${this.currentQuestionIndex+1}.png`;
+  imageNumber: string = `assets/q${this.currentQuestionIndex+1}.png`;
 
   constructor(private router: Router) {}
 
@@ -89,7 +89,7 @@ export class Page3Component {
     }
 
     this.currentQuestionIndex++;
-    this.imageNumber = `/q${this.currentQuestionIndex+1}.png`;
+    this.imageNumber = `assets/q${this.currentQuestionIndex+1}.png`;
 
     if (this.currentQuestionIndex >= this.questions.length) {
       this.endQuiz();
